@@ -68,6 +68,9 @@ mac-option-modifier 'none)
 (el-get 'sync)
 
 ;; Standard Jedi.el setting
-(setq jedi:server-command '("/Users/carthach/.emacs.d/el-get/jedi/jediepcserver.py"))
-(add-hook 'python-mode-hook 'jedi:setup)
-(setq jedi:complete-on-dot t)
+;; (setq jedi:server-command '("/Users/carthach/.emacs.d/el-get/jedi/jediepcserver.py"))
+;; (add-hook 'python-mode-hook 'jedi:setup)
+;; (setq jedi:complete-on-dot t)
+
+;;Replace text
+(delete-selection-mode 1)
