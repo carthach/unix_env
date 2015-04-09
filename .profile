@@ -11,21 +11,22 @@ export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
 ###
 #Exports
 ###
-export PYTHONPATH=/usr/local/lib/python2.7/site-packages
+export PYTHONPATH=/Users/carthach/Dev/git/
+export PYTHONPATH=/usr/local/lib/python2.7/site-packages:$PYTHONPATH
 export PYTHONPATH=/usr/local/Cellar/opencv/2.4.9/lib/python2.7/site-packages:$PYTHONPATH
 export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig
 
 #Paths
 export PATH=/usr/local/bin:$PATH #Prefer Homebrew to system binaries
 export PATH=/Applications/MATLAB_R2014a.app/bin:$PATH
-export PATH=~/Dev/svn/flext:$PATH
+export PATH=~/Dev/git/flext:$PATH
 
 #Aliases - should probably move!
 alias Emacs=/Applications/Emacs.app/Contents/MacOS/Emacs
 alias virtual_bootcamp='sudo ~/.virtualbox.sh'
 alias matlab='/Applications/MATLAB_R2013a.app/bin/matlab -nodesktop -nosplash'
 alias pd='/Applications/Pd-extended.app/Contents/Resources/bin/pd'
-alias subl='/Applications/Sublime\ Text*.app/Contents/SharedSupport/bin/subl' #Use wildcard to match any editin of subl
+alias subl='/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl'
 
 alias l='ls'
 alias g='cd ~/Dev/git'
@@ -40,3 +41,8 @@ alias cdx='cd /Users/carthach/Documents/college/phd/mtg_courses/dsp/xavier/'
 alias cdp='cd /Users/carthach/Documents/college/phd/'
 alias cdm='cd /Users/carthach/Documents/college/phd/mtg_courses/mir/'
 
+alias ka='sudo killall coreaudiod'
+
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"

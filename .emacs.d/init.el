@@ -73,4 +73,4 @@ mac-option-modifier 'none)
 ;; (setq jedi:complete-on-dot t)
 
 ;;Replace text
-(delete-selection-mode 1)
+;;(delete-selection-mode 1)
