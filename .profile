@@ -21,6 +21,18 @@ export PATH=/usr/local/bin:$PATH #Prefer Homebrew to system binaries
 export PATH=/Applications/MATLAB_R2014a.app/bin:$PATH
 export PATH=~/Dev/git/flext:$PATH
 
+#Saves current directory as 'go' alias and stores for next session 
+alias go='cd /Users/carthach/tmp'
+function save {	
+	p=$(pwd); #Get current directory
+
+	#Need '' to not save backup, use % delimiter
+	#1, and the duplicated search term makes it stop at the first match
+	#This way it doesn't delete the sed line as well!
+	sed -i '' "1,/alias go='cd .*'/s%alias go='cd .*'%alias go='cd $p'%g" "$HOME/.profile";
+	alias go='cd $p';
+}
+
 #Aliases - should probably move!
 alias Emacs=/Applications/Emacs.app/Contents/MacOS/Emacs
 alias virtual_bootcamp='sudo ~/.virtualbox.sh'
