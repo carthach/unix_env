@@ -59,3 +59,11 @@ alias ka='sudo killall coreaudiod'
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
+
+# Android
+export ANDROID_NDK_ROOT=/usr/local/opt/android-sdk
+export ANDROID_SDK_ROOT=/usr/local/opt/android-ndk
+#export JAVA_HOME=`/usr/libexec/java_homes`
+#export ANDROID_HOME=~/.android
+
+export PATH="$ANDROID_SDK_ROOT/tools/":"$ANDROID_SDK_ROOT/platform-tools/":"$PATH"
