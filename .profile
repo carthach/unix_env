@@ -22,7 +22,7 @@ export PATH=/Applications/MATLAB_R2014a.app/bin:$PATH
 export PATH=~/Dev/git/flext:$PATH
 
 #Saves current directory as 'go' alias and stores for next session 
-alias go='cd /Users/carthach/tmp'
+alias go='cd /Users/carthach/Dev/gcc/android_library'
 function save {	
 	p=$(pwd); #Get current directory
 
@@ -61,9 +61,7 @@ alias ka='sudo killall coreaudiod'
 export PATH="/usr/local/heroku/bin:$PATH"
 
 # Android
-export ANDROID_NDK_ROOT=/usr/local/opt/android-sdk
-export ANDROID_SDK_ROOT=/usr/local/opt/android-ndk
-#export JAVA_HOME=`/usr/libexec/java_homes`
-#export ANDROID_HOME=~/.android
+export ANDROID_SDK_ROOT=/usr/local/opt/android-sdk
+export ANDROID_NDK_ROOT=/usr/local/opt/android-ndk
 
-export PATH="$ANDROID_SDK_ROOT/tools/":"$ANDROID_SDK_ROOT/platform-tools/":"$PATH"
+export NDK_MODULE_PATH=/Users/carthach/Dev/android/modules/
