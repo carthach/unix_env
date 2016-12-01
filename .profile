@@ -38,7 +38,7 @@ alias Emacs=/Applications/Emacs.app/Contents/MacOS/Emacs
 alias virtual_bootcamp='sudo ~/.virtualbox.sh'
 alias matlab='/Applications/MATLAB_R2013a.app/bin/matlab -nodesktop -nosplash'
 alias pd='/Applications/Pd-extended.app/Contents/Resources/bin/pd'
-alias subl='/Applications/Sublime\ Text\ *.app/Contents/SharedSupport/bin/subl'
+alias subl='/Applications/Sublime\ Text*.app/Contents/SharedSupport/bin/subl'
 
 alias c='clear'
 alias l='ls'
