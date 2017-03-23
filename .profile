@@ -22,15 +22,16 @@ export PATH=/Applications/MATLAB_R2014a.app/bin:$PATH
 export PATH=~/Dev/git/flext:$PATH
 
 #Saves current directory as 'go' alias and stores for next session 
-alias go='cd /Users/carthach/Dev/gcc/android_library'
+alias go='cd "/Users/carthach/Google Drive/Code/hmm_tutorial"'
 function save {	
-	p=$(pwd); #Get current directory
-
+	p="\"$(pwd)\""; #Get current directory
+    
 	#Need '' to not save backup, use % delimiter
 	#1, and the duplicated search term makes it stop at the first match
 	#This way it doesn't delete the sed line as well!
 	sed -i '' "1,/alias go='cd .*'/s%alias go='cd .*'%alias go='cd $p'%g" "$HOME/.profile";
-	alias go='cd $p';
+	# alias go='cd $p';
+    source ~/.profile;
 }
 
 #Aliases - should probably move!
