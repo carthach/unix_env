@@ -20,6 +20,9 @@ export PYTHONPATH="/Users/carthach/Google Drive/Code/PyConcat"
 export PATH=/Applications/MATLAB_R2014a.app/bin:$PATH
 export PATH=~/Dev/git/flext:$PATH
 
+#Homebrew changed python's path
+export PATH=/usr/local/Cellar/python/2.7.13_1/Frameworks/Python.framework/Versions/2.7/bin:$PATH
+
 #Saves current directory as 'go' alias and stores for next session 
 alias go='cd "/Users/carthach/Google Drive/Code/experiments"'
 function save {	
@@ -52,8 +55,6 @@ alias weka_run="java -classpath /Applications/weka/weka-3-6-10/weka.jar"
 alias cdx='cd /Users/carthach/Documents/college/phd/mtg_courses/dsp/xavier/'
 alias cdp='cd /Users/carthach/Documents/college/phd/'
 alias cdm='cd /Users/carthach/Documents/college/phd/mtg_courses/mir/'
-
-alias ka='sudo killall coreaudiod'
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
