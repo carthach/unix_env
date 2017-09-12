@@ -24,7 +24,7 @@ export PATH=~/Dev/git/flext:$PATH
 export PATH=/usr/local/Cellar/python/2.7.13_1/Frameworks/Python.framework/Versions/2.7/bin:$PATH
 
 #Saves current directory as 'go' alias and stores for next session 
-alias go='cd "/Users/carthach/Google Drive/Code/experiments"'
+alias go='cd "/Users/carthach/Dev/git/Onset-Detection"'
 function save {	
 	p="\"$(pwd)\""; #Get current directory
     
@@ -46,6 +46,7 @@ alias subl='/Applications/Sublime\ Text*.app/Contents/SharedSupport/bin/subl'
 alias c='clear'
 alias l='ls'
 alias g='cd ~/Dev/git'
+alias gd='cd ~/Google\ Drive/'
 alias d='cd ~/Dev'
 alias cmod='chmod 755'
 
