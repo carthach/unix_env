@@ -68,5 +68,5 @@ export ANDROID_NDK_ROOT=/usr/local/opt/android-ndk
 
 export NDK_MODULE_PATH=/Users/carthach/Dev/android/modules/
 
-alias mdpy='source /Users/carthach/Dev/melodrive/mdpy/bin/python'
+alias mdpy='source /Users/carthach/Dev/melodrive/mdpy/bin/activate'
 alias melo='cd /Users/carthach/Dev/melodrive/'
