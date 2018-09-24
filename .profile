@@ -11,18 +11,9 @@ export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
 ###
 export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig
 
-export PYTHONPATH=/Users/carthach/Dev/git/
-export PYTHONPATH=/usr/local/lib/python2.7/site-packages:$PYTHONPATH
-export PYTHONPATH=/usr/local/Cellar/opencv/2.4.9/lib/python2.7/site-packages:$PYTHONPATH
-export PYTHONPATH="/Users/carthach/Google Drive/Code/PyConcat"
-
-#Paths
 export PATH=/Applications/MATLAB_R2014a.app/bin:$PATH
 export PATH=~/Dev/git/flext:$PATH
 export PATH=/Library/TeX/texbin:$PATH
-
-#Homebrew changed python's path
-export PATH=/usr/local/Cellar/python/2.7.13_1/Frameworks/Python.framework/Versions/2.7/bin:$PATH
 
 #Saves current directory as 'go' alias and stores for next session 
 alias go='cd "/Users/carthach/Google Drive/Code/onset_detection/Onset-Standalone-References/onset_detectors"'
@@ -58,9 +49,6 @@ alias cdx='cd /Users/carthach/Documents/college/phd/mtg_courses/dsp/xavier/'
 alias cdp='cd /Users/carthach/Documents/college/phd/'
 alias cdm='cd /Users/carthach/Documents/college/phd/mtg_courses/mir/'
 alias tp='cd /Users/carthach/Google\ Drive/Code/thesis_plots'
-
-### Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
 
 # Android
 export ANDROID_SDK_ROOT=/usr/local/opt/android-sdk
