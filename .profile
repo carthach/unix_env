@@ -14,9 +14,10 @@ export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig
 export PATH=/Applications/MATLAB_R2014a.app/bin:$PATH
 export PATH=~/Dev/git/flext:$PATH
 export PATH=/Library/TeX/texbin:$PATH
+export PATH=/usr/local/bin:$PATH
 
 #Saves current directory as 'go' alias and stores for next session 
-alias go='cd "/Users/carthach/Google Drive/Code/onset_detection/Onset-Standalone-References/onset_detectors"'
+alias go='cd "/Users/carthach/Dev/andrson"'
 function save {	
 	p="\"$(pwd)\""; #Get current directory
     
@@ -27,6 +28,12 @@ function save {
 	# alias go='cd $p';
     source ~/.profile;
 }
+
+#Homebrew
+export HOMEBREW_EDITOR='/Applications/Sublime\ Text*.app/Contents/SharedSupport/bin/subl'
+
+#Git Autocomplete
+[[ -r "/usr/local/etc/profile.d/bash_completion.sh" ]] && . "/usr/local/etc/profile.d/bash_completion.sh"
 
 #Aliases - should probably move!
 alias Emacs=/Applications/Emacs.app/Contents/MacOS/Emacs
@@ -58,3 +65,9 @@ export NDK_MODULE_PATH=/Users/carthach/Dev/android/modules/
 
 alias mdpy='source /Users/carthach/Dev/melodrive/mdpy/bin/activate'
 alias melo='cd /Users/carthach/Dev/melodrive/'
+
+# PYTHON
+export PYTHONPATH=/Users/carthach/Dev/andrson/research/code:$PYTHONPATH
+export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
+
+
