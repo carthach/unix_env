@@ -1,8 +1,3 @@
-if [ "$(uname)" == "Darwin" ]; then
- #Bash autocomplete
-	[ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
-fi
-
 export CLICOLOR=1
 export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
 
@@ -37,10 +32,6 @@ export HOMEBREW_EDITOR='/Applications/Sublime\ Text*.app/Contents/SharedSupport/
 
 #Aliases - should probably move!
 alias Emacs=/Applications/Emacs.app/Contents/MacOS/Emacs
-alias virtual_bootcamp='sudo ~/.virtualbox.sh'
-alias matlab='/Applications/MATLAB_R2013a.app/bin/matlab -nodesktop -nosplash'
-alias pd='/Applications/Pd-extended.app/Contents/Resources/bin/pd'
-alias subl='/Applications/Sublime\ Text*.app/Contents/SharedSupport/bin/subl'
 
 alias c='clear'
 alias l='ls'
@@ -48,23 +39,6 @@ alias g='cd ~/Dev/git'
 alias gd='cd ~/Google\ Drive/'
 alias d='cd ~/Dev'
 alias cmod='chmod 755'
-
-alias a="cd /Users/carthach/Dev/mtg/my_projects/artist_analysis/extractor"
-alias grid="ssh -X conuanain@hpc.dtic.upf.edu"
-alias weka_run="java -classpath /Applications/weka/weka-3-6-10/weka.jar"
-alias cdx='cd /Users/carthach/Documents/college/phd/mtg_courses/dsp/xavier/'
-alias cdp='cd /Users/carthach/Documents/college/phd/'
-alias cdm='cd /Users/carthach/Documents/college/phd/mtg_courses/mir/'
-alias tp='cd /Users/carthach/Google\ Drive/Code/thesis_plots'
-
-# Android
-export ANDROID_SDK_ROOT=/usr/local/opt/android-sdk
-export ANDROID_NDK_ROOT=/usr/local/opt/android-ndk
-
-export NDK_MODULE_PATH=/Users/carthach/Dev/android/modules/
-
-alias mdpy='source /Users/carthach/Dev/melodrive/mdpy/bin/activate'
-alias melo='cd /Users/carthach/Dev/melodrive/'
 
 # PYTHON
 export PYTHONPATH=/Users/carthach/Dev/andrson/research/code:$PYTHONPATH
