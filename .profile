@@ -41,7 +41,6 @@ alias d='cd ~/Dev'
 alias cmod='chmod 755'
 
 # PYTHON
-export PYTHONPATH=/Users/carthach/Dev/andrson/research/code:$PYTHONPATH
 export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
 
 
